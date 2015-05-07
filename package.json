@@ -1,11 +1,16 @@
 {
-  "name": "CatGif",
+  "name": "node_catgif",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A static hosting using google cloud (firebase) for catgif.tv",
+  "main": "echo \"Error: no entrypoint specified\" && exit 1",
+  "dependencies": {
+    "firebase-admin": "^5.12.0",
+    "firebase-tools": "^3.18.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Filip Lindqvist <buggfille+lightpack@gmail.com> (http://filiplindqvist.com/)",
   "license": "ISC"
 }
